@@ -5,6 +5,7 @@ env:
   CSMOCK_TOOLS: "clang cppcheck gcc"
 
 on:
+  workflow_dispatch:
   pull_request:
     branches:
      - master
